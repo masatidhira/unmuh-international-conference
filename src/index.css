@@ -78,8 +78,8 @@ body {
   background: var(--bodyColor);
 }
 
-main {
-  height: 200vh;
+main > section {
+  height: 100vh;
 }
 
 
