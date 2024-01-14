@@ -1,0 +1,81 @@
+.header {
+    position: fixed;
+    justify-content: space-between;
+    background: var(--whiteColorDeam);
+    width: 100%;
+    padding: 1rem;
+    z-index: 1000;
+
+    .logo {
+
+        img {
+            width: 3.5rem;
+            height: 3.5rem;
+            object-fit: contain;
+        }
+
+        .text {
+            margin-left: 0.6rem;
+            
+            h1 {
+                font-size: 0.8rem;
+            }
+
+            h2 {
+                font-size: 0.7rem;
+            }
+        }
+
+    }
+
+    .navBar {
+        .navItem {
+            font-size: 0.8rem;
+            margin: 0 0.8rem;
+        }
+    }
+
+    .toggleNavBar {
+        display: none;
+    }
+
+    @media screen and (max-width: 768px) {
+        .navBar {
+            position: absolute;
+            background: var(--whiteColorDeam);
+            height: calc(9rem + (0.8rem * 8) + 1rem);
+            width: 85%;
+            border-radius: 0.8rem;
+            top: 6rem;
+            left: 50%;
+            transform: translate(-50%);
+            z-index: 2000;
+            box-shadow: 0 2px 3px rgba(2, 15, 30, 0.2);
+            transition: 0.3s ease-in-out;
+            overflow: hidden;
+            .navList {
+                flex-direction: column;
+                justify-content: center;
+                padding: 0.5rem 0;
+
+                .navItem {
+                    margin: 0.4rem 0;
+                }
+            }
+        }
+
+        .toggleNavBar {
+            display: flex;
+        }
+
+        .is-closed {
+            height: 0;
+        }
+
+        .is-hidden {
+            display: none;
+        }
+    }
+
+
+}
