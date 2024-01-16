@@ -1,0 +1,27 @@
+#submission {
+
+    article {
+        display: flex;
+        flex-direction: column;
+
+        h4 {
+            text-align: center;
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+        }
+        p {
+            font-size: 0.9rem;
+            line-height: 1.3;
+            margin-bottom: 1rem;
+        }
+
+        ol {
+            margin-left: 1rem;
+            li {
+                font-size: 0.9rem;
+                list-style: decimal;
+                line-height: 1.3;
+            }
+        }
+    }
+}
