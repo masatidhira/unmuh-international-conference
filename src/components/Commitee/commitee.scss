@@ -1,0 +1,27 @@
+#commitee {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    .commiteeList {
+        .commiteeItem {
+            margin-bottom: 1rem;
+
+            .name {
+                font-size: 1.3rem;
+                margin: 2rem 0 1rem;
+            }
+            .nameItem {
+                font-size: 0.9rem;
+                margin-bottom: 0.3rem;
+            }
+            .subName {
+                font-size: 0.9rem;
+                margin: 1rem 0 0.6rem;
+            }
+        }
+        
+    }
+}
