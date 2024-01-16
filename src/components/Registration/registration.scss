@@ -1,0 +1,50 @@
+#registration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    table {
+        max-width: 720px;
+        border-collapse: collapse;
+        margin: 1rem 0 2rem;
+        thead {
+            border-bottom: 2px solid black;
+            text-align: left;
+        }
+
+        th {
+            padding: 0.5rem 2rem 0.5rem 0;
+        }
+        
+        td {
+            padding: 0.5rem 2rem 0.5rem 0;
+        }
+        tbody > tr {
+            font-size: 0.9rem;
+            border-bottom: 1px solid rgb(211, 211, 211);
+        }
+    }
+
+    article {
+        max-width: 720px;
+        font-size: 0.9rem;
+
+        p {
+            margin-bottom: 0.5rem;
+        }
+
+        a {
+            display: inline-block;
+            margin: 1rem 0;
+        }
+
+        .registrationList {
+            margin: 2rem 0;
+            li {
+                font-weight: bold;
+            }
+        }
+        
+    }
+}

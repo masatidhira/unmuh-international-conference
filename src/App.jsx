@@ -3,6 +3,7 @@ import CallForPaper from "./components/CallForPaper/CallForPaper"
 import Commitee from "./components/Commitee/Commitee"
 import ImportantDates from "./components/ImportantDates/ImportantDates"
 import Navbar from "./components/Navbar/Navbar"
+import Registration from "./components/Registration/Registration"
 import Speakers from "./components/Speakers/Speakers"
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
         <Speakers />
         <Commitee />
         <ImportantDates />
-        <section>Registration</section>
+        <Registration />
         <section>Submission</section>
         <section>Contact</section>
       </main>
