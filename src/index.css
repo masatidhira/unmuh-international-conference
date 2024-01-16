@@ -84,7 +84,7 @@ body {
 
 .section {
   max-width: 1100px;
-  padding: calc(var(--headerHeight) + 1rem) 1rem;
+  padding: calc(var(--headerHeight) + 1rem) 1rem 1rem;
   margin: auto;
 }
 

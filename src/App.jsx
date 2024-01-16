@@ -1,6 +1,7 @@
 import Banner from "./components/Banner/Banner"
 import CallForPaper from "./components/CallForPaper/CallForPaper"
 import Navbar from "./components/Navbar/Navbar"
+import Speakers from "./components/Speakers/Speakers"
 
 function App() {
 
@@ -10,7 +11,7 @@ function App() {
       <main>
         <Banner />
         <CallForPaper />
-        <section>Planary Speaker</section>
+        <Speakers />
         <section>Commitee</section>
         <section>Important Date</section>
         <section>Registration</section>
