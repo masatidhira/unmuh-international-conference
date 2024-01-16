@@ -4,7 +4,7 @@ import "./banner.scss"
 function Banner() {
 
     return (
-        <section className="bannerSection">
+        <section className="bannerSection" id="banner">
             <div className="overlay"></div>
             <img src={unmuhDepan} alt="FOTO UNMUH DEPAN" className="imageBG"/>
 

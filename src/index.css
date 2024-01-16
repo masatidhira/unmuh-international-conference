@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 :root {
+  --headerHeight: 5rem;
+
   --primaryColor: #0073A8;
   --secondColor: #10B5CB;
   --whiteColor: #ffffff;
@@ -17,6 +21,9 @@
   --greyText: rgb(190, 190, 190);
   --bodyColor: rgb(240, 240, 240);
   --cardBG: rgb(255, 255, 235);
+
+  --font-poppins: "Poppins", sans-serif;
+  --font-raleway: 'Raleway', sans-serif;
 }
 
 a {
@@ -27,9 +34,6 @@ li {
   list-style: none;
 }
 
-.section {
-  padding: 4rem 0 2rem;
-}
 
 .container {
   padding-left: 1.5rem;
@@ -78,11 +82,30 @@ body {
   background: var(--bodyColor);
 }
 
-main > section {
-  height: 100vh;
+.section {
+  max-width: 1100px;
+  padding: calc(var(--headerHeight) + 1rem) 1rem;
+  margin: auto;
 }
 
+.sectionTitle {
+  text-align: center;
+  font-family: var(--font-raleway);
+  font-size: 2rem;
+  position: relative;
+  margin-bottom: 3rem;
+}
 
+.sectionTitle::after {
+  content: "";
+  width: 8rem;
+  height: 2px;
+  background-color: var(--blackColor);
+  position: absolute;
+  bottom: -1rem;
+  left: 50%;
+  transform: translate(-50%);
+}
 
 
 

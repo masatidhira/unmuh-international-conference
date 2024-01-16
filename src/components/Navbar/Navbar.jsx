@@ -21,35 +21,34 @@ function Navbar() {
                             <h1>UNMUH JEMBER</h1>
                             <h2>International Conference</h2>
                         </div>
-                        
                     </a>
                 </div>
 
-                <div className={"navBar " + (navBarClose ? "is-closed" : "")}>
+                <div className={"navBar " + (navBarClose ? "is-closed" : "")} onClick={() => toggleNavBarClose()}>
                     <ul className="navList flex">
                         <li className="navItem">
-                            <a href="#" className="navLink">Home</a>
+                            <a href="#banner" className="navLink">Home</a>
                         </li>
                         <li className="navItem">
-                            <a href="#" className="navLink">Call For Papers</a>
+                            <a href="#callForPaper" className="navLink">Call For Papers</a>
                         </li>
                         <li className="navItem">
-                            <a href="#" className="navLink">Plenary Speaker</a>
+                            <a href="#plenarySpeaker" className="navLink">Plenary Speaker</a>
                         </li>
                         <li className="navItem">
-                            <a href="#" className="navLink">Commitee</a>
+                            <a href="#commitee" className="navLink">Commitee</a>
                         </li>
                         <li className="navItem">
-                            <a href="#" className="navLink">Important Dates</a>
+                            <a href="#importantDates" className="navLink">Important Dates</a>
                         </li>
                         <li className="navItem">
-                            <a href="#" className="navLink">Registration</a>
+                            <a href="#registration" className="navLink">Registration</a>
                         </li>
                         <li className="navItem">
-                            <a href="#" className="navLink">Submission</a>
+                            <a href="#submission" className="navLink">Submission</a>
                         </li>
                         <li className="navItem">
-                            <a href="#" className="navLink">Contact</a>
+                            <a href="#contact" className="navLink">Contact</a>
                         </li>
                     </ul>
                 </div>
