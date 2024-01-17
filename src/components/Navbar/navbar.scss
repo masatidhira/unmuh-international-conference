@@ -1,7 +1,7 @@
 .header {
     position: fixed;
     justify-content: space-between;
-    background: var(--whiteColorDeam);
+    background: var(--darkestBlue);
     width: 100%;
     height: var(--headerHeight);
     padding: 1rem;
@@ -9,7 +9,6 @@
     z-index: 1000;
 
     .logo {
-
         img {
             width: 3.5rem;
             height: 3.5rem;
@@ -18,7 +17,7 @@
 
         .text {
             margin-left: 0.6rem;
-            
+            color: var(--lightBlue);
             h1 {
                 font-size: 0.8rem;
             }
@@ -34,6 +33,9 @@
         .navItem {
             font-size: 0.8rem;
             margin: 0 0.8rem;
+            a {
+                color: var(--lightBlue);
+            }
         }
     }
 
@@ -44,7 +46,7 @@
     @media screen and (max-width: 768px) {
         .navBar {
             position: absolute;
-            background: var(--whiteColorDeam);
+            background: var(--darkestBlue);
             height: calc(9rem + (0.8rem * 8) + 1rem);
             width: 85%;
             border-radius: 0.8rem;
@@ -68,6 +70,7 @@
 
         .toggleNavBar {
             display: flex;
+            color: var(--lightBlue);
         }
 
         .is-closed {

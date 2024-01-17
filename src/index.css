@@ -12,6 +12,12 @@
 :root {
   --headerHeight: 5rem;
 
+  --darkestBlue: #0F1035;
+  --blue: #365486;
+  --lightBlue: #7FC7D9;
+  --whiteText: #EEF5FF;
+  --blackText: #08090e;
+
   --primaryColor: #0073A8;
   --secondColor: #10B5CB;
   --whiteColor: #ffffff;
@@ -37,7 +43,6 @@ a {
 li {
   list-style: none;
 }
-
 
 .container {
   padding-left: 1.5rem;
@@ -83,7 +88,7 @@ img, video {
 }
 
 body {
-  background: var(--bodyColor);
+  background: var(--whiteColor);
 }
 
 .section {
