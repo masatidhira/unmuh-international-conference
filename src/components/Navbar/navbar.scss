@@ -4,83 +4,89 @@
     background: var(--darkestBlue);
     width: 100%;
     height: var(--headerHeight);
-    padding: 1rem;
     box-shadow: 0 0 3px rgba(2, 15, 30, 0.2);
     z-index: 1000;
 
-    .logo {
-        img {
-            width: 3.5rem;
-            height: 3.5rem;
-            object-fit: contain;
-        }
+    .topNavigation {
+        justify-content: space-between;
+        width: 100%;
+        max-width: 1080px;
+        height: inherit;
+        margin: auto;
+        padding: 0 1rem;
 
-        .text {
-            margin-left: 0.6rem;
-            color: var(--lightBlue);
-            h1 {
-                font-size: 0.8rem;
+        .logo {
+            img {
+                width: 3.5rem;
+                height: 3.5rem;
+                object-fit: contain;
             }
-
-            h2 {
-                font-size: 0.7rem;
-            }
-        }
-
-    }
-
-    .navBar {
-        .navItem {
-            font-size: 0.8rem;
-            margin: 0 0.8rem;
-            a {
+    
+            .text {
+                margin-left: 0.6rem;
                 color: var(--lightBlue);
+                h1 {
+                    font-size: 0.8rem;
+                }
+    
+                h2 {
+                    font-size: 0.7rem;
+                }
             }
+    
         }
-    }
-
-    .toggleNavBar {
-        display: none;
-    }
-
-    @media screen and (max-width: 768px) {
+    
         .navBar {
-            position: absolute;
-            background: var(--darkestBlue);
-            height: calc(9rem + (0.8rem * 8) + 1rem);
-            width: 85%;
-            border-radius: 0.8rem;
-            top: 6rem;
-            left: 50%;
-            transform: translate(-50%);
-            z-index: 2000;
-            box-shadow: 0 2px 3px rgba(2, 15, 30, 0.2);
-            transition: 0.3s ease-in-out;
-            overflow: hidden;
-            .navList {
-                flex-direction: column;
-                justify-content: center;
-                padding: 0.5rem 0;
-
-                .navItem {
-                    margin: 0.4rem 0;
+            .navItem {
+                font-size: 0.8rem;
+                margin: 0 0.8rem;
+                a {
+                    color: var(--lightBlue);
                 }
             }
         }
-
+    
         .toggleNavBar {
-            display: flex;
-            color: var(--lightBlue);
-        }
-
-        .is-closed {
-            height: 0;
-        }
-
-        .is-hidden {
             display: none;
         }
+    
+        @media screen and (max-width: 850px) {
+            .navBar {
+                position: absolute;
+                background: var(--darkestBlue);
+                height: calc(9rem + (0.8rem * 8) + 1rem);
+                width: 85%;
+                border-radius: 0.8rem;
+                top: 6rem;
+                left: 50%;
+                transform: translate(-50%);
+                z-index: 2000;
+                box-shadow: 0 2px 3px rgba(2, 15, 30, 0.2);
+                transition: 0.3s ease-in-out;
+                overflow: hidden;
+                .navList {
+                    flex-direction: column;
+                    justify-content: center;
+                    padding: 0.5rem 0;
+    
+                    .navItem {
+                        margin: 0.4rem 0;
+                    }
+                }
+            }
+    
+            .toggleNavBar {
+                display: flex;
+                color: var(--lightBlue);
+            }
+    
+            .is-closed {
+                height: 0;
+            }
+    
+            .is-hidden {
+                display: none;
+            }
+        }
     }
-
-
 }
