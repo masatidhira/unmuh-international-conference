@@ -10,8 +10,8 @@ function Banner() {
 
             <div className="bannerContent container">
                 <div className="textDiv">
-                    <h1>The 2024 International Conference on Computer Science, Information Technology and Engineering</h1>
-                    <p>Conference Record Number: #577XX</p>
+                    <h1>Beyond Technology Summit on Informatics International Conference 2024</h1>
+                    <p>Conference Record Number #577XX</p>
                 </div>
             </div>
         </section>

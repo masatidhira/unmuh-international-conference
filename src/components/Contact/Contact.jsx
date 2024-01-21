@@ -18,7 +18,7 @@ function Contact() {
                 <div className="card">
                     <MdOutlineEmail className="icon" />
                     <h4>Email Us</h4>
-                    <p>kantorpusat@unmuhjember.ac.id</p>
+                    <p>bts@unmuhjember.ac.id</p>
                 </div>
                 <div className="card">
                     <FaPhoneAlt className="icon" />
@@ -28,7 +28,7 @@ function Contact() {
                 <div className="card">
                     <MdWhatsapp className="icon" />
                     <h4>WhatsApp</h4>
-                    <p>+62 813-36xx-xxxx</p>
+                    <p>+62 81336063330</p>
                 </div>
             </div>
         </section>
