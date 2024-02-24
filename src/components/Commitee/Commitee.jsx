@@ -13,8 +13,8 @@ function Commitee() {
                     <ul className="nameList">
                         <li className="nameItem"><b>General Chair</b>: Dr. Bagus Setya Rintyarna, S.T., M.Kom.</li>
                         <li className="nameItem"><b>Treasurer</b>: Triawan Adi Cahyanto, M.Kom.</li>
-                        <li className="nameItem"><b>Secretary</b>: Hardian Oktavianto, S.Si., M.Kom.</li>
-                        <li className="nameItem"><b>Technical Program Committee & Publication Chair</b>: Daryanto, M.Kom.</li>
+                        <li className="nameItem"><b>Secretary</b>: Rosita Yanuarti, S.Kom., M.Cs.</li>
+                        <li className="nameItem"><b>Technical Program Committee & Publication Chair</b>: Hardian Oktavianto, S.Si., M.Kom.</li>
                         <h5 className="subName">Editor</h5>
                             <li className="nameItem">Lintang Setyo Kurniawati, S.Kom., M.Pd.Kom</li>
                             <li className="nameItem">Habibatul Azizah Al Faruq, M.Pd.</li>
@@ -23,6 +23,7 @@ function Commitee() {
                             <li className="nameItem">Lutfi Ali Muhaarom, M.Si.</li>
                             <li className="nameItem">Miftahurrahman, S.Kom</li>
                             <li className="nameItem">Ginanjar Abdurrahman, M.Pd</li>
+                            <li className="nameItem">Daryanto, M.Kom.</li>
                     </ul>
                 </li>
             </ul>
